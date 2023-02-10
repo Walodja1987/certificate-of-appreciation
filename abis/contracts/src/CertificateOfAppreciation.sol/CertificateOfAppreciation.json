@@ -1,0 +1,5 @@
+[
+  "constructor()",
+  "function getTimestampOfSponsorship() view returns (uint256)",
+  "function sayThankYou() view returns (string)"
+]
