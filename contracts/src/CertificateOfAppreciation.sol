@@ -10,10 +10,11 @@ contract CertificateOfAppreciation {
 
     function sayThankYou() external pure returns (string memory) {
         return 
-            "Thank you for sponsoring a portion of the DIVA Protocol audit costs, "
-            "Tobias Hagen! As our sign of appreciation for supporting decentralized "
-            "finance technologies, you receive governance power worth "
-            "3000 $DIVA tokens in return.";
+            "Dear Tobias Hagen, "
+            "thank you for your generous support in sponsoring a portion of the DIVA Protocol "
+            "audit costs. As a sign of our appreciation, we award you with 3000 $DIVA tokens, "
+            "which give you governance power within the DIVA community and allow you to play "
+            "an active role in shaping the future of decentralized finance.";
     }
 
     function getTimestampOfSponsorship() external view returns (uint256) {
